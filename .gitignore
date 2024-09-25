@@ -1,18 +1,67 @@
+# Laravel specific
 /node_modules
 /public/build
 /public/hot
 /public/storage
 /storage/*.key
 /vendor
-.env
-.env.backup
-.env.production
+/.env
+/.env.backup
+/.env.production
+
+# PHPUnit result cache
 .phpunit.result.cache
+
+# Homestead files
 Homestead.json
 Homestead.yaml
+
+# Laravel Telescope
+/telescope
+
+# Laravel Horizon
+/horizon
+
+# Ignorar autenticación y archivos sensibles
 auth.json
+
+# Ignorar registros de errores y depuración
 npm-debug.log
 yarn-error.log
+yarn.lock
+
+# Fleet directory (optional, used in some projects)
 /.fleet
+
+# IDE/editor settings
 /.idea
 /.vscode
+
+# Ignorar archivos de Docker
+docker-compose.override.yml
+
+# Ignorar almacenamiento local de Composer
+composer.lock
+
+# Ignorar archivos de salida de compilación y caché de Webpack
+/public/mix-manifest.json
+/public/css
+/public/js
+
+# Ignorar archivos de backup
+*.bak
+*.backup
+
+# Ignorar archivos de logs
+/storage/logs/*.log
+/storage/framework/sessions/*.session
+
+# Ignorar datos de test
+/tests/_output
+/tests/_support/_generated
+
+# Ignorar archivos del servicio de cloud (si aplica)
+.env.local
+.env.testing
+.env.development
+.env.staging
