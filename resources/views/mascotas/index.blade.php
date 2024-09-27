@@ -19,11 +19,11 @@
 
   <!-- Vendor CSS Files -->
   <link rel="stylesheet" href="{{ secure_asset('vendor/bootstrap/css/bootstrap.min.css') }}"> 
-  <link rel="stylesheet" href="{{ asset('vendor/bootstrap-icons/bootstrap-icons.css') }}">
-  <link rel="stylesheet" href="{{ asset('vendor/boxicons/css/boxicons.min.css') }}">
-  <link rel="stylesheet" href="{{ asset('vendor/quill/quill.snow.css') }}">
-  <link rel="stylesheet" href="{{ asset('vendor/quill/quill.bubble.css') }}">
-  <link rel="stylesheet" href="{{ asset('vendor/remixicon/remixicon.css') }}">
+  <link rel="stylesheet" href="{{ secure_asset('vendor/bootstrap-icons/bootstrap-icons.css') }}">
+  <link rel="stylesheet" href="{{ secure_asset('vendor/boxicons/css/boxicons.min.css') }}">
+  <link rel="stylesheet" href="{{ secure_asset('vendor/quill/quill.snow.css') }}">
+  <link rel="stylesheet" href="{{ secure_asset('vendor/quill/quill.bubble.css') }}">
+  <link rel="stylesheet" href="{{ secure_asset('vendor/remixicon/remixicon.css') }}">
 
   <!-- Template Main CSS File -->
 
