@@ -10,25 +10,23 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="{{asset('public/img/favicon.png')}}" rel="icon">
-  <link href="{{asset('public/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+  <link href="{{ asset('img/favicon.png') }}" rel="icon">
+  <link href="{{ asset('img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.gstatic.com" rel="preconnect">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-
-  <link rel="stylesheet" href="{{asset('public/vendor/bootstrap/css/bootstrap.min.css')}}">
-  <link rel="stylesheet" href="{{asset('public/vendor/bootstrap-icons/bootstrap-icons.css')}}">
-  <link rel="stylesheet" href="{{asset('public/vendor/boxicons/css/boxicons.min.css')}}">
-  <link rel="stylesheet" href="{{asset('public/vendor/quill/quill.snow.css')}}">
-  <link rel="stylesheet" href="{{asset('public/vendor/quill/quill.bubble.css')}}">
-  <link rel="stylesheet" href="{{asset('public/vendor/remixicon/remixicon.css')}}">
-  <link rel="stylesheet" href="{{asset('public/css/style.css')}}">
+  <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('vendor/bootstrap-icons/bootstrap-icons.css') }}">
+  <link rel="stylesheet" href="{{ asset('vendor/boxicons/css/boxicons.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('vendor/quill/quill.snow.css') }}">
+  <link rel="stylesheet" href="{{ asset('vendor/quill/quill.bubble.css') }}">
+  <link rel="stylesheet" href="{{ asset('vendor/remixicon/remixicon.css') }}">
 
   <!-- Template Main CSS File -->
-  <link href="{{asset('public/css/style.css')}}" rel="stylesheet">
+  <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
   <!-- =======================================================
   * Template Name: NiceAdmin
