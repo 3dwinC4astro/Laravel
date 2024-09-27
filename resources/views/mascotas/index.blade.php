@@ -533,13 +533,14 @@
 
 
 
-             <table class="table datatable">
+  <table class="table datatable">
         <thead>
             <tr>
                 <th>Numero</th>
                 <th>Nombre</th>
                 <th>Raza</th>
                 <th>Género</th>
+                <th>Identificación</th>
                 <th>Nombre Dueño</th>
                 <th>Teléfono Dueño</th>
             </tr>
@@ -551,13 +552,13 @@
                     <td>{{ $mascota->Nombre }}</td>
                     <td>{{ $mascota->Raza }}</td>
                     <td>{{ $mascota->Género }}</td>
+                    <td>{{ $mascota->identificacion }}</td>
                     <td>{{ $mascota->NombreDueño }}</td>
                     <td>{{ $mascota->telefonoDueño }}</td>
                 </tr>
             @endforeach
         </tbody>
     </table>
-
 
             </div>
           </div>
