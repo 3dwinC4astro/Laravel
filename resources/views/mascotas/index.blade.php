@@ -18,7 +18,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ secure_asset('vendor/bootstrap/css/bootstrap.min.css') }}"> 
   <link rel="stylesheet" href="{{ asset('vendor/bootstrap-icons/bootstrap-icons.css') }}">
   <link rel="stylesheet" href="{{ asset('vendor/boxicons/css/boxicons.min.css') }}">
   <link rel="stylesheet" href="{{ asset('vendor/quill/quill.snow.css') }}">
@@ -26,7 +26,8 @@
   <link rel="stylesheet" href="{{ asset('vendor/remixicon/remixicon.css') }}">
 
   <!-- Template Main CSS File -->
-  <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
+  <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
 
   <!-- =======================================================
   * Template Name: NiceAdmin
